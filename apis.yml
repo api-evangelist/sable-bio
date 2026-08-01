@@ -1,25 +1,79 @@
 aid: sable-bio
 name: Sable Bio
-description: Sable Bio is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sable Bio is a London-based drug-safety intelligence company building an
+  AI-augmented platform, Sable Target Intelligence, that helps toxicologists,
+  informaticians, and drug discovery scientists assess and mitigate target
+  safety risk earlier in the drug development process. The platform aggregates
+  and quantifies clinical, genetic, experimental, and literature evidence into a
+  unified Target Safety Intelligence surface so safety teams can systematically
+  prioritize and de-risk drug targets faster than traditional manual review. The
+  company is headquartered in East London (Runway East Aldgate) and is backed by
+  Episode One, Seedcamp, and MMC Ventures. Sable Bio was added to the API
+  Evangelist network as a portfolio lead; as of this enrichment pass it operates
+  a public marketing and product site with a Vanta-hosted trust center but does
+  not yet publish a developer-facing API, documentation, or data-access surface.
 url: https://raw.githubusercontent.com/api-evangelist/sable-bio/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/rtayjHLkJ6lU9Q3Qa3AAkKoNdDk.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
+- episode-one
+- mmc-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Drug Safety
+- Toxicology
+- Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Artificial Intelligence
+- Data Intelligence
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
-  url: http://sablebio.com
+  url: https://sablebio.com/
+- type: Product
+  url: https://sablebio.com/product
+- type: Blog
+  url: https://sablebio.com/news
+- type: SignUp
+  url: https://sablebio.com/book-a-demo
+- type: TermsOfService
+  url: https://sablebio.com/documents/terms-of-use
+- type: PrivacyPolicy
+  url: https://sablebio.com/documents/privacy-policy
+- type: TrustCenter
+  url: security/sable-bio-trust-center.yml
+- type: DomainSecurity
+  url: security/sable-bio-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sable-bio
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

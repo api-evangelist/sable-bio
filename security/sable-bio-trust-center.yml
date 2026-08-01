@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://sablebio.com/ (footer "Security & Compliance" link)
+url: https://app.eu.vanta.com/sablebio.com/trust/s1xlry9agzrdaj2zvwuhpo
+platform: Vanta
+status: 200
+certifications: []
+notes: >-
+  Sable Bio publishes a Vanta-hosted trust center, linked from the site footer
+  as "Security & Compliance". The page returns HTTP 200 but is a
+  JavaScript-rendered single-page app, so the specific certifications/frameworks
+  it lists (e.g. SOC 2, ISO 27001) could not be machine-read during this pass.
+  The presence of a Vanta trust center is recorded here verbatim; no specific
+  certification is asserted to avoid fabrication. Re-run to enumerate certs once
+  the SPA content is retrievable.
+evidence:
+  - source: https://sablebio.com/
+    kind: footer-link
+    label: Security & Compliance
+  - source: https://app.eu.vanta.com/sablebio.com/trust/s1xlry9agzrdaj2zvwuhpo
+    kind: trust-center
+    status: 200
