@@ -14,6 +14,17 @@ description: >-
   a public marketing and product site with a Vanta-hosted trust center but does
   not yet publish a developer-facing API, documentation, or data-access surface.
 url: https://raw.githubusercontent.com/api-evangelist/sable-bio/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
